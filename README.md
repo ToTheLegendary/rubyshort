@@ -51,9 +51,9 @@ one, two, three = values`
  ---
  #### Double Pipe Equals
  `some_variable ||= 10
-puts some_variable # => 10
+puts some_variable # => 10`
 
-some_variable ||= 99
+`some_variable ||= 99
 puts some_variable # => 10`
 
 ---
