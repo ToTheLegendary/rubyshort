@@ -14,7 +14,7 @@ s= %q(hello)
 + Array
 s= %w(a b c)
 s= %W(a b c)
-
+```
 #### Random method
 
 `[1,2,3,4,5].sample`
