@@ -48,6 +48,7 @@ one, two, three = values
 `Framgia.awesome?`
 
 `[].any? # => false`
+
 `1, 2, 3].any? # => true`
 
 
