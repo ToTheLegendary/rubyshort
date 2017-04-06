@@ -6,7 +6,14 @@ Made ruby simple syntax
 
 `user_ids = users.map(&:id)`
 
-
+#### String and Array:
+```
++ String
+s= %Q(hello)
+s= %q(hello)
++ Array
+s= %w(a b c)
+s= %W(a b c)
 
 #### Random method
 
@@ -73,7 +80,7 @@ end
 ```
 
 
-***0..5 == [0, 1, 2, 3, 4, 5]***
+_0..5 == [0, 1, 2, 3, 4, 5]_
 
 2. EACH LOOP
 ```
