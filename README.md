@@ -19,17 +19,21 @@ Made ruby simple syntax
 
 #### Method always return
 
-`def get_user_ids(users)
+```
+def get_user_ids(users)
   users.map(&:id)
-end`
+end
+```
 
 
 #### Multi assignments
-`def values
+```
+def values
   [1, 2, 3]
 end
 
-one, two, three = values`
+one, two, three = values
+```
 
 
 #### Check conditions with '?'
