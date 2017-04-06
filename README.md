@@ -7,7 +7,7 @@ Made ruby simple syntax
 `user_ids = users.map(&:id)`
 
 
----
+
 #### Random method
 
 `[1,2,3,4,5].sample`
@@ -16,14 +16,14 @@ Made ruby simple syntax
 
 `[1,2,3,4,5].select(&:even?)`
 
----
+
 #### Method always return
 
 `def get_user_ids(users)
   users.map(&:id)
 end`
 
----
+
 #### Multi assignments
 `def values
   [1, 2, 3]
@@ -31,16 +31,16 @@ end
 
 one, two, three = values`
 
----
+
 #### Check conditions with '?'
 
 `Framgia.awesome?`
 
-`[].any? # => false
-[1, 2, 3].any? # => true`
+`[].any? # => false`
+`1, 2, 3].any? # => true`
 
 
----
+
 #### Unless vs try
 * Unless:
   `user.id unless user.nil?`
@@ -48,7 +48,7 @@ one, two, three = values`
   `user.try(:id)`
   
   
- ---
+
  #### Double Pipe Equals
  `some_variable ||= 10
 puts some_variable # => 10`
@@ -61,7 +61,7 @@ puts some_variable # => 10`
   
 # ruby short loop
 
-*FOR LOOP
+1. FOR LOOP
 ```
 for i in (0..5) do
   puts "#{i}"
@@ -71,14 +71,14 @@ end
 
 ***0..5 == [0, 1, 2, 3, 4, 5]***
 
-*EACH LOOP
+2. EACH LOOP
 ```
 (0..5).each do |i|
   puts "#{i}"
 end
 ```
 
-*BREAK => Kết thúc khối loop
+3. BREAK => Kết thúc khối loop
 ```
 (0..5).each do |i|
   break if i == 2
@@ -86,7 +86,7 @@ end
 end
 ```
 
-*NEXT => chuyển sang vòng lặp tiếp theo
+4. NEXT => chuyển sang vòng lặp tiếp theo
 ```
 (0..5).each do |i|
   next if i == 2
@@ -95,7 +95,7 @@ end
 ```
 
 
-*WHILE LOOP
+5. WHILE LOOP
 ```
 var1 = 0
 while var1 < NUM do
