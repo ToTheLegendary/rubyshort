@@ -117,6 +117,14 @@ while var1 < NUM do
 end
 ```
 
+# If for any reason something went wrong, you can always reset the database as follows:
+
+  Quit the console.
+  Run $ rm -f development.sqlite3 at the command line to remove the database. (We’ll learn a more elegant method for doing this in Chapter 7.)
+  Re-run the migrations using $ rails db:migrate.
+  Restart the console.
+
+
 
 
 
